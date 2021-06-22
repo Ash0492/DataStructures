@@ -11,7 +11,6 @@ def CountNonRepElem(arr,n):
         if dict[i]==1:
             counter+=1
     return counter
-
 arr=[10,20,30,40,10]
 n=9
 print(CountNonRepElem(arr,n))
